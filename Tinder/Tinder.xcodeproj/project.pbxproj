@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF2701EF233DDF3800818F7D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2701EE233DDF3800818F7D /* SignInViewController.swift */; };
+		EF2701F1233DE08800818F7D /* SignInViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2701F0233DE08800818F7D /* SignInViewController+UI.swift */; };
+		EF2701F3233DE2F600818F7D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2701F2233DE2F600818F7D /* ForgotPasswordViewController.swift */; };
+		EF2701F5233DE32700818F7D /* ForgotPasswordViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2701F4233DE32700818F7D /* ForgotPasswordViewController+UI.swift */; };
 		EF7C5B46233D34020064836C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C5B45233D34020064836C /* AppDelegate.swift */; };
 		EF7C5B48233D34020064836C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C5B47233D34020064836C /* SceneDelegate.swift */; };
 		EF7C5B4D233D34020064836C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7C5B4B233D34020064836C /* Main.storyboard */; };
@@ -14,9 +18,14 @@
 		EF7C5B52233D34030064836C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7C5B50233D34030064836C /* LaunchScreen.storyboard */; };
 		EF7C5B5F233D635F0064836C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C5B5E233D635F0064836C /* LoginViewController.swift */; };
 		EF7C5B61233D7A8A0064836C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C5B60233D7A8A0064836C /* SignUpViewController.swift */; };
+		EF7C5B63233DD5C30064836C /* SignUpViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C5B62233DD5C30064836C /* SignUpViewController+UI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF2701EE233DDF3800818F7D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		EF2701F0233DE08800818F7D /* SignInViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInViewController+UI.swift"; sourceTree = "<group>"; };
+		EF2701F2233DE2F600818F7D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		EF2701F4233DE32700818F7D /* ForgotPasswordViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForgotPasswordViewController+UI.swift"; sourceTree = "<group>"; };
 		EF7C5B42233D34020064836C /* Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7C5B45233D34020064836C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF7C5B47233D34020064836C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +35,7 @@
 		EF7C5B53233D34030064836C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF7C5B5E233D635F0064836C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EF7C5B60233D7A8A0064836C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EF7C5B62233DD5C30064836C /* SignUpViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpViewController+UI.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,7 @@
 				EF7C5B5D233D34780064836C /* Model */,
 				EF7C5B5C233D346F0064836C /* Model Controller */,
 				EF7C5B5B233D34680064836C /* View Controller */,
+				EF7C5B64233DD5CC0064836C /* Extensions */,
 				EF7C5B5A233D345A0064836C /* Storyboard */,
 			);
 			path = Tinder;
@@ -92,6 +103,8 @@
 			children = (
 				EF7C5B5E233D635F0064836C /* LoginViewController.swift */,
 				EF7C5B60233D7A8A0064836C /* SignUpViewController.swift */,
+				EF2701EE233DDF3800818F7D /* SignInViewController.swift */,
+				EF2701F2233DE2F600818F7D /* ForgotPasswordViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -108,6 +121,16 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		EF7C5B64233DD5CC0064836C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C5B62233DD5C30064836C /* SignUpViewController+UI.swift */,
+				EF2701F0233DE08800818F7D /* SignInViewController+UI.swift */,
+				EF2701F4233DE32700818F7D /* ForgotPasswordViewController+UI.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,10 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2701F3233DE2F600818F7D /* ForgotPasswordViewController.swift in Sources */,
 				EF7C5B5F233D635F0064836C /* LoginViewController.swift in Sources */,
+				EF2701F1233DE08800818F7D /* SignInViewController+UI.swift in Sources */,
 				EF7C5B46233D34020064836C /* AppDelegate.swift in Sources */,
+				EF2701F5233DE32700818F7D /* ForgotPasswordViewController+UI.swift in Sources */,
+				EF2701EF233DDF3800818F7D /* SignInViewController.swift in Sources */,
 				EF7C5B61233D7A8A0064836C /* SignUpViewController.swift in Sources */,
 				EF7C5B48233D34020064836C /* SceneDelegate.swift in Sources */,
+				EF7C5B63233DD5C30064836C /* SignUpViewController+UI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
