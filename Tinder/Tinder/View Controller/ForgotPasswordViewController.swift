@@ -26,5 +26,8 @@ class ForgotPasswordViewController: UIViewController {
            setupResetButton()
        }
 
-
+    @IBAction func dismissButtonPressed(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
+    }
+    
 }

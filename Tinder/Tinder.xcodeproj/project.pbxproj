@@ -11,6 +11,7 @@
 		EF2701F1233DE08800818F7D /* SignInViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2701F0233DE08800818F7D /* SignInViewController+UI.swift */; };
 		EF2701F3233DE2F600818F7D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2701F2233DE2F600818F7D /* ForgotPasswordViewController.swift */; };
 		EF2701F5233DE32700818F7D /* ForgotPasswordViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2701F4233DE32700818F7D /* ForgotPasswordViewController+UI.swift */; };
+		EF2701F723417B2700818F7D /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF2701F623417B2700818F7D /* GoogleService-Info-2.plist */; };
 		EF7C5B46233D34020064836C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C5B45233D34020064836C /* AppDelegate.swift */; };
 		EF7C5B48233D34020064836C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C5B47233D34020064836C /* SceneDelegate.swift */; };
 		EF7C5B4D233D34020064836C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7C5B4B233D34020064836C /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		EF2701F0233DE08800818F7D /* SignInViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInViewController+UI.swift"; sourceTree = "<group>"; };
 		EF2701F2233DE2F600818F7D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		EF2701F4233DE32700818F7D /* ForgotPasswordViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForgotPasswordViewController+UI.swift"; sourceTree = "<group>"; };
+		EF2701F623417B2700818F7D /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		EF7C5B42233D34020064836C /* Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7C5B45233D34020064836C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF7C5B47233D34020064836C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				EF7C5B44233D34020064836C /* Tinder */,
 				EF7C5B59233D34380064836C /* Resources */,
+				EF2701F623417B2700818F7D /* GoogleService-Info-2.plist */,
 				EF7C5B43233D34020064836C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			files = (
 				EF7C5B52233D34030064836C /* LaunchScreen.storyboard in Resources */,
 				EF7C5B4F233D34030064836C /* Assets.xcassets in Resources */,
+				EF2701F723417B2700818F7D /* GoogleService-Info-2.plist in Resources */,
 				EF7C5B4D233D34020064836C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

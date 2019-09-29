@@ -34,4 +34,8 @@ class SignInViewController: UIViewController {
         setupSignInButton()
     }
     
+    // MARK: - IBAction
+    @IBAction func singUpButtonTapped(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
+    }
 }
